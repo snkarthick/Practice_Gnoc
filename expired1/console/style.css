@@ -1,0 +1,20 @@
+/*body {
+  font-family: 'Gochi Hand', cursive;
+font-family: 'Kameron', serif; 
+  color:#33ff66;
+  background-color:black;
+  letter-spacing: 3px; 
+  font-weight: bold;
+}
+*/
+body {
+  background-color: black;
+  color: #55ff55;
+  font-family: monospace;
+}
+.output {
+  color: white;
+}
+.active:after {
+  content: '_';
+}

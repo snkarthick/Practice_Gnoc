@@ -1,0 +1,43 @@
+html, body {
+  background: #222222;
+  height: 100%;
+}
+html .flex, body .flex {
+  width: 100%;
+  color: white;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+  height: 100%;
+}
+html .content, body .content {
+  width: 500px;
+  margin: auto auto;
+}
+html .content h2, body .content h2 {
+  padding-top: 0%;
+  padding-left: 19px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-family: didot;
+  font-size: 75px;
+  letter-spacing: 0.2px;
+  line-height: 75px;
+  max-width: 550px;
+  width: 100%;
+}
+html .content .text, body .content .text {
+  padding: 0px 0 0 22px;
+}
+html .content .text p, body .content .text p {
+  font-family: didot;
+  font-size: 16px;
+  line-height: 32px;
+  max-width: 463px;
+  width: 100%;
+  letter-spacing: 1.1px;
+  padding: 0px !important;
+  margin-bottom: 20px;
+}
